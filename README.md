@@ -7,13 +7,17 @@ Flex Box Layouts could easily be achieved by mixing & matching flex-related prop
 
 While flex box layout implementations are limitless, there are still some regularly common use cases from where to start. The classes enlisted here should provide enough flexibility to tackle down most of those scenarios, while keeping a simple and clear nomenclature.
 
-Visit the official Tachyons site here: http://tachyons.io
+Visit the official Tachyons site here: [http://tachyons.io](http://tachyons.io)
 
 ## Install
 ```
 npm install --save-dev tachyons-flex
 ```
 or download the css on github and include in your project.
+
+## Usage
+
+Just set a `df` class onto your desired _flex container_ element and a `flx-i` class onto a _flex item_ element, inside. For different results, mix & match the provided classes, and be sure to check `index.html` file for more thorough examples.
 
 ## The Code
 ```
@@ -261,9 +265,9 @@ or download the css on github and include in your project.
 
 ## A Note on Class Names
 
-First of all, I took the dare to add a `df` class, that follows the syntax presented on the [Display](https://github.com/tachyons-css/tachyons-display) module. This was a necessary decision, since HTML elements rely on the `display` property to be upgraded to "flex containers".
+First of all, I took the dare to add a `df` class, that follows the syntax presented on the [Display](https://github.com/tachyons-css/tachyons-display) module. This was a necessary decision, since HTML elements rely on the `display` property set to `flex` to be converted into "flex containers".
 
-Unfortunately, Flex Box definitions don't necessarily have a "namespace" of their own, and are actually hard to follow on a common syntax. For this effect, I set a `flx` base namespace, so then all flex-related properties are appended as modifiers, keeping them as short and less verbose as possible.
+Unfortunately, Flex Box definitions don't necessarily have a "namespace" of their own, and are actually hard to wrap on a common syntax. For this effect, I set a `flx` base namespace, so then all flex-related properties are appended as modifiers, keeping them as short and less verbose as possible.
 
 ## Author
 

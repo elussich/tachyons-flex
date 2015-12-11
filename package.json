@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "style": "tachyons-flex.css",
   "homepage": "http://github.com/elussich/tachyons-flex",
-  "description": "Performance based css module.",
+  "description": "Tachyons module for Flex Box layouts.",
   "keywords": [],
   "repository": {
     "type": "git",
