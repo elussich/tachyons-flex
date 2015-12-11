@@ -1,6 +1,6 @@
 {
   "name": "tachyons-flex",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "style": "tachyons-flex.css",
   "homepage": "http://github.com/elussich/tachyons-flex",
   "description": "Tachyons module for Flex Box layouts.",
