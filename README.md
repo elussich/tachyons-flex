@@ -2,6 +2,9 @@
 
 This is an "unofficial" Tachyons module that provides a set of classes to construct flex box layouts.
 
+## IMPORTANT NOTE:
+**This module is deprecated and will no longer be maintained. [Latest Tachyons release](https://www.npmjs.com/package/tachyons) now provides flexbox capabilities, both inside the main package, and through the official flexbox module: (https://www.npmjs.com/package/tachyons-flexbox).**
+
 ### Why Flex Box?
 Flex Box Layouts could easily be achieved by mixing & matching flex-related properties, stablishing a behavioral relationship between the flex container, and its inner flex items.
 
